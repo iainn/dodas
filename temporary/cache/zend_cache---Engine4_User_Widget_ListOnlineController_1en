@@ -1,0 +1,11 @@
+a:2:{i:0;s:299:"
+<!--
+<h3> Members Online</h3>
+-->
+
+<div>
+      <div class='whosonline_thumb'>
+      <a  href="/profile/admin" title="admin"><img src="/application/modules/User/externals/images/nophoto_user_thumb_icon.png" alt="admin" class="thumb_icon item_photo_user item_nophoto " /></a>    </div>
+    
+  </div>
+";i:1;i:1;}

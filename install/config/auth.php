@@ -11,4 +11,4 @@
  */
 defined('SEIRAN_INSTALL') or die(); // Example (pw:test) test:seiran:8bd98fb521b3b05f121560c504526a3d ?>
 someUser:someRealm:someMd5
-iainn@retweb.co.uk:seiran:03fd17586e7a36b42e9812a467e38860
+iainn@retweb.co.uk:seiran:dd4ea033c1feb87abd3332d559936ed8

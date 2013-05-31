@@ -1,0 +1,16 @@
+a:2:{i:0;s:1165:"
+<div class="quicklinks">
+  
+<ul>
+      <li>
+      <a  href="/activity/notifications" class="buttonlink menu_user_home user_home_updates" style="background-image: url(application/modules/User/externals/images/links/updates.png);" target="">View Recent Updates</a>    </li>
+      <li>
+      <a  href="/profile/1" class="buttonlink menu_user_home user_home_view" style="background-image: url(application/modules/User/externals/images/links/profile.png);" target="">View My Profile</a>    </li>
+      <li>
+      <a  href="/members/edit/profile" class="buttonlink menu_user_home user_home_edit" style="background-image: url(application/modules/User/externals/images/edit.png);" target="">Edit My Profile</a>    </li>
+      <li>
+      <a  href="/members" class="buttonlink menu_user_home user_home_friends" style="background-image: url(application/modules/User/externals/images/links/search.png);" target="">Browse Members</a>    </li>
+      <li>
+      <a  href="/invite" class="buttonlink menu_user_home user_home_invite" style="background-image: url(application/modules/Invite/externals/images/invite.png);" target="">Invite Your Friends</a>    </li>
+  </ul></div>
+";i:1;N;}
