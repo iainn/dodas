@@ -1,0 +1,57 @@
+/* $Id: main.css 2010-11-04 9:40:21Z SocialEngineAddOns Copyright 2009-2010 BigStep Technologies Pvt. Ltd. $ */ 
+/*icons*/
+.notification_type_shared, .activity_icon_share{background-image: url(~/application/modules/Advancedactivity/externals/images/comment.png);}
+.notification_type_sitepage_tagged,.notification_type_sitebusiness_tagged{background-image: url(~/application/modules/User/externals/images/types/tag.png);}
+.aaf_color_light, div#compose-container ul.tag-autosuggest > li.autocompleter-choices .autocompleter-choice div, .aaf_feed_item_stats > span, .aaf_feed_item_stats > span > a.timesep, .aaf_feed_item_stats > span.colibox span, ul.feed .feed_item_link_desc div, ul.feed .feed_item_link_desc span, .aaf_tweet_options_row > span, .aaf_tweet_options_row > span.timestamp a, ul.feed .feed_attachment_birthday_link .feed_item_link_title, ul.feed .feed_attachment_birthday_link .feed_item_link_desc, .adv_activity_welcome_upphoto .adv_activity_welcome_upphoto_des div{color:$theme_font_color_light;}
+.aaf_show_popup a{color:$theme_link_color !important;}
+/* status box css start here*/
+.adv_post_container_box, .adv_post_container .compose-tray, .adv_post_container .adv_post_container_checkin, .adv_post_container .adv_post_container_tagging{ background-color: $theme_body_background_color; border:1px solid $theme_border_medium_color;}
+.birthday_activity_feed .overTxtLabel, .adv_post_container_tagged_cont, .adv_post_container_checkin, .adv_post_container_tagging .overTxtLabel{color:$theme_font_color_light;}
+.aaf_feed_composer_tag{ display: inline-block; background-color: $theme_tag_background_color;margin: 0px 0 5px 0px;}
+div#compose-container ul.tag-autosuggest, ul.tag-autosuggest{ border:1px solid $theme_border_dark_color;border-bottom-width:2px;}
+.aaf_main_container_lodding{background:url(~/application/modules/Seaocore/externals/images/loading.gif);height:32px;width:32px;margin:40px auto;}
+/* facebook activity feeds start here */
+.aaf-feed-photo, .aaf_feed_attachment_facebook_photo{border:1px solid $theme_photo_border_color;}
+.aaf-feed-photo:hover, .aaf_feed_attachment_facebook_photo:hover{border:1px solid $theme_photo_border_color_hover;}
+ul.feed .aaf_feed_attachment_facebook > div > div {border-left:2px solid $theme_border_medium_color;}
+/*ACTIVITY MAIN TABS START HERE */
+.aaf_tabs > ul.aaf_tabs_apps{border-bottom: 1px solid $theme_border_medium_color;}
+.aaf_tabs > ul.aaf_tabs_apps > li > a {+rounded(5px 5px 0 0);color: $theme_link_color;background-color:$theme_body_background_color;}
+.aaf_tabs > ul.aaf_tabs_apps > li > a:hover{background-color:$theme_border_color;background-image: url(~/application/modules/Advancedactivity/externals/images/tabs-bg.png);color: $theme_font_color;}
+.aaf_tabs > ul.aaf_tabs_apps > li.aaf_tab_active > a{background-color:$theme_body_background_color;border-color:$theme_border_medium_color;color: $theme_font_color;}
+.aaf_tabs > ul.aaf_tabs_apps > li.aaf_tab_active > a:hover{background-color:$theme_body_background_color;background-image:none;color: $theme_font_color;}
+.aaf_tabs > ul.aaf_tabs_apps > li .add_apps a{color:$theme_font_color;}
+.aaf_tabs_feed {background-color:$theme_border_color;border-bottom:1px solid $theme_border_medium_color;}
+.aaf_tabs_feed > ul > li.aaf_tab_active a{color:$theme_font_color;}
+/* advanced activity feed pulldown content list start here */
+.aaf_pulldown_btn, .aaf_feed_delete_btn a, .aaf_birthday_feed_delete_btn a {border:1px solid $theme_border_medium_color;}
+.aaf_feed_delete_btn a:hover, .aaf_pulldown_btn:hover, .aaf_birthday_feed_delete_btn a:hover {border:1px solid $theme_pulldown_background_color_active;}
+.aaf_tabs_feed_tab_open .aaf_pulldown_btn {background-color:$theme_pulldown_background_color_active;border:1px solid $theme_pulldown_background_color_active;}
+.aaf_pulldown_contents_wrapper {border:2px solid $theme_pulldown_border_color;}
+.aaf_pulldown_contents {background-color:$theme_pulldown_contents_background_color;}
+.aaf_pulldown_contents > ul > li.aaf_custom_list, .aaf_pulldown_contents > ul > li > a {color:$theme_font_color;}
+.aaf_pulldown_contents > ul > li > a:hover, .aaf_pulldown_contents > ul > li.aaf_custom_list:hover, .aaf_pulldown_contents > ul > li.active:hover{background-color:$theme_pulldown_contents_list_background_color_hover;outline: medium none;}
+.aaf_tabs_feed li.aaf_tabs_feed_tab_more:hover{background-color:$theme_pulldown_background_color_active;}
+.aaf_tabs_feed li.aaf_tabs_feed_tab_more:hover > a{color:$theme_pulldown_font_color_active;}
+.aaf_pulldown_contents > ul > li.sep {border-bottom: 1px solid $theme_border_color;}
+/* advanced activity feed pulldown content list end here */
+.layout_page_advancedactivity_index_welcometab .layout_middle .generic_layout_container + .generic_layout_container{border-top-color:$theme_border_medium_color !important;}
+/* FEED OVERRIDES */
+.aaf_feed_tip, .aaf_feed_tip_more a, .aaf_feed_loading{background-color:$theme_border_color;}
+.aaf_feed_tip_more a:hover{background-color:$theme_border_medium_color;}
+/*Notification pull down*/
+.pulldown_contents ul > li{padding-top:1px !important;padding-bottom:1px !important;}
+.aaf_update_pulldown{padding:3px !important;}
+.aaf_update_pulldown > a{float:left !important;margin:0 8px 0 0;}
+html[dir="rtl"] .aaf_update_pulldown > a{float:right !important;margin:0 0 0 8px;}
+.aaf_update_pulldown > a > img{width:40px;height:40px;}
+.aaf_update_pulldown .aaf_update_pulldown_content{display: table-cell;vertical-align: top;width: 10000px;}
+.aaf_update_pulldown .aaf_update_pulldown_content .aaf_update_pulldown_content_title{margin-bottom:5px;}
+.aaf_update_pulldown .aaf_update_pulldown_content .aaf_update_pulldown_content_stat{color:$theme_font_color_light;padding-left:21px;clear:both;background-repeat:no-repeat;	background-position:0 0;float:left;}
+.aaf_update_pulldown .aaf_update_pulldown_content .aaf_update_pulldown_content_stat, .aaf_update_pulldown .aaf_update_pulldown_content .aaf_update_pulldown_content_stat span{	font-weight:normal;line-height:16px;}
+/*privacy pulldown*/
+.aaf_privacy_pulldown_active a.aaf_privacy_pulldown_button{ +rounded(4px, false, false, true, true);background-color: $theme_pulldown_background_color_active;color: $theme_pulldown_font_color_active; text-decoration: none;}
+
+/*Composer Autosuggest For Phone*/
+.stchekin_suggest_container, .add_friend_suggest_container, ul.aaf-mobile-aad-tag-autosuggest {background-color:$theme_list_background_color;border: 1px solid $theme_border_color;}
+ul.aaf-mobile-aad-tag-autosuggest > li + li {border: 1px solid $theme_border_color;}
