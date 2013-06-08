@@ -394,6 +394,12 @@ class HTTP_OAuth_Consumer extends HTTP_OAuth
         if (!$this->consumerRequest instanceof HTTP_OAuth_Consumer_Request) {
             $this->consumerRequest = new HTTP_OAuth_Consumer_Request;
         } 
+        
+        $this->consumerRequest->setConfig(array(
+          'ssl_verify_peer' => false, 
+          'ssl_verify_host' => false
+        ));
+        
         return $this->consumerRequest;
     }
 
