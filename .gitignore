@@ -1,4 +1,4 @@
-*.DS_Store
+.DS_Store
 public/
 temporary/cache/
 temporary/session/
@@ -11,3 +11,5 @@ temporary/session/scaffold/
 application/settings/database.php
 application/settings/cache.php
 install/config/vhs.php
+.htaccess
+temporary/scaffold/
