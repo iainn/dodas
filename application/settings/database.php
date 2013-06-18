@@ -2,7 +2,7 @@
   'adapter' => 'mysqli',
   'params' => 
   array (
-    'host' => 'localhost',
+    'host' => 'dodas-dev.cksgjld851ua.us-west-2.rds.amazonaws.com',
     'username' => 'dodas_dev',
     'password' => 'Starwars123',
     'dbname' => 'dodas_dev',

@@ -23,17 +23,18 @@ DEFAULT STYLES FOR THIS THEME
   theme_content_columns_left_width: 190px;
   theme_content_columns_right_width: 190px;
   theme_body_background_color: #f7f7f7;
+  theme_topbar_logo_color: #eee;
 
   /*
   HEADER AND FOOTER COLORS
   These values are only used to style the site-wide header and footer.
   */
-  theme_topbar_menu_background_color: #e99d11;
+  theme_topbar_menu_background_color: #eee;
   theme_topbar_menu_link_color: #fff;
   theme_topbar_menu_link_hover_color: #fff;
   theme_topbar_menu_link_hover_decoration: none;
   theme_topbar_menu_link_size: 14px;
-  theme_topbar_minimenu_background_color: #363636;
+  theme_topbar_minimenu_background_color: #eee;
   theme_topbar_minimenu_link_size: .7em;
   theme_topbar_minimenu_link_color: #999;
   theme_topbar_minimenu_link_hover_color: #fff;
@@ -237,7 +238,6 @@ classes throughout the stylesheet.
   -moz-user-select: none;
   -webkit-user-select: none;
 }
-
 
 
 

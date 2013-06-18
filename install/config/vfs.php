@@ -2,6 +2,6 @@
   'adapter' => 'system',
   'config' => 
   array (
-    'path' => '/Users/iainniven/Dropbox/Work/retweb/dodas/repo/dodas',
+    'path' => '/var/www/html',
   ),
 )?>
