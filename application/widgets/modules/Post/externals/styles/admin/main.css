@@ -1,0 +1,51 @@
+@include "~/application/modules/Core/externals/styles/admin/constants.css";
+
+
+#global_page_post-admin-manage-index .admin_search {
+	max-width: 98%;
+}
+
+
+.post_widget_form .form-wrapper {
+    border-top: 1px solid #EEEEEE;
+    clear: both;
+    overflow: hidden;
+    padding: 0px 0;
+    margin-top: 4px !important;
+}
+.post_widget_form .form-label {
+    clear: left;
+    float: left;
+    font-weight: bold;
+    overflow: hidden;
+    padding-right: 15px;
+    width: 160px;
+}
+.post_widget_form .form-element {
+    float: left;
+    overflow: hidden;
+}
+#category_list .move-me {
+  cursor: move;
+}
+
+.post_text_desc {
+  font-size: 0.8em;
+}
+
+#post_admin_manage_filter #category-search-wrapper  {
+  clear: left;
+  margin-left: 0;
+}
+
+
+#post_list_posts thead th.post_header_icon {
+  width: 65px;
+}
+
+.post_header_member {
+  width: 160px;
+}
+.post_header_votes {
+  width: 65px;
+}
